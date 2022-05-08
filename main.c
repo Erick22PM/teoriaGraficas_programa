@@ -10,13 +10,9 @@ int main(void) {
   int nodos, lineas, tg;//tg es el tipo de grafica
   int i, j;
 
-  system("cls");
   nodos = numeroVertices();
-  system("cls");
   lineas = numeroLineas();
-  system("cls");
   tg = tipoGrafica();
-  system("cls");
 
 
   char relaciones[lineas][2];

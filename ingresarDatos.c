@@ -8,7 +8,6 @@ int numeroVertices() {
     printf("\nIngresa el numero de nodos...\n--->");
       scanf("%d", &nVert);
     if(nVert<0){
-      system("cls");
       printf("\nTiene que ser un valor positivo.\nPrueba nuevamente...\n");
     }else{
       aux=1;
@@ -25,7 +24,6 @@ int numeroLineas(){
     printf("\nIngresa el numero de lineas...\n--->");
       scanf("%d", &nLineas);
     if(nLineas<0){
-      system("cls");
       printf("\nTiene que ser un valor positivo.\nPrueba nuevamente...\n");
     }else{
       aux=1;
@@ -43,7 +41,6 @@ int tipoGrafica(){//Funcion
     printf("\nIngresa el tipo de grafica...\nGrafica ................. (1) \nDigrafica ............... (2) \n--->");
       scanf("%d", &tipoGraf);
     if(tipoGraf!=1&&tipoGraf!=2){
-      system("cls");
       printf("\nTiene que ser (1) o (2).\nPrueba nuevamente...\n");
     }else{
       aux=1;
